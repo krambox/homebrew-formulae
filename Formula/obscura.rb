@@ -3,11 +3,11 @@ class Obscura < Formula
   homepage "https://github.com/h4ckf0r0day/obscura"
 
   if Hardware::CPU.arm?
-    url "https://github.com/h4ckf0r0day/obscura/releases/download/v0.2.1/obscura-aarch64-macos.tar.gz"
-    sha256 "5233da6426ec16667d7e4374b824189c6dfb3b325e5cf3fb5f04c7bc48b52a0f"
+    url "https://github.com/h4ckf0r0day/obscura/releases/download/v0.2.3/obscura-aarch64-macos.tar.gz"
+    sha256 "45653cfad226f1c9b415603a2ed59477fcbd6335c742338ce133c05de0bdd056"
   else
-    url "https://github.com/h4ckf0r0day/obscura/releases/download/v0.2.1/obscura-x86_64-macos.tar.gz"
-    sha256 "e6d0f8719998fa4460bccc712b20a1e524717d5c54e943f345227bd893ec9620"
+    url "https://github.com/h4ckf0r0day/obscura/releases/download/v0.2.3/obscura-x86_64-macos.tar.gz"
+    sha256 "d7c48122debc2ad9b24842df44560860dba765ea928b3f636b7f053225245116"
   end
 
   license "Apache-2.0"
